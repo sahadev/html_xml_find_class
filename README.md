@@ -6,8 +6,11 @@
 ```
 
 然后进行编译：
+
 编译方法：javac -g com/missfresh/sahadev/Main.java （该命令固定）
+
 运行方法：java com.missfresh.sahadev.Main html输入路径 html输出路径
+
         例如：java com.missfresh.sahadev.Main /Users/sahadev/openSource/mryx_super_market/pages/mainPages/mine/my_address/my_address.wxml /Users/sahadev/openSource/mryx_super_market/pages/mainPages/mine/my_address/my_address.css
 
 > 注意：输入路径与输出路径为必填项，且不可相等。如果输出文件不存在，则会自动创建。
